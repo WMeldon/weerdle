@@ -1,0 +1,13 @@
+{
+  "type": "module",
+  "scripts": {
+    "test": "ava"
+  },
+  "devDependencies": {
+    "ava": "^4.0.1",
+    "prettier": "2.5.1"
+  },
+  "dependencies": {
+    "chalk": "^5.0.0"
+  }
+}
