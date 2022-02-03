@@ -4,7 +4,7 @@ import {
   filterCorrect,
   weerdle,
   wordle,
-} from "./wordle.js"
+} from "./src/weerdle.js"
 
 import test from "ava"
 
@@ -58,6 +58,16 @@ test("weerdle", (t) => {
     "ROBOT",
     "PRICK",
     "WINCE",
+    "CRIMP",
+    "SUGAR",
+    "WHACK",
+    "MOUNT",
+    "PERKY",
+    "COULD",
+    "LIGHT",
+    "THOSE",
+    "MOIST",
+    "SHARD",
   ].map((w) => w.toLowerCase())
   pastWords.forEach((word) => {
     const result = weerdle(wordle(word))
